@@ -1,0 +1,52 @@
+<----------------------------- Task Management Project Instruction ---------------------------->
+
+Step 1:- Project Requirement:- This Task Manager Project built on Laravel 11 using laravel breeze with atleast php 8.2 version so please setup it on your local machine 
+and install all require dependencies (php version 8.2 or plus, composer, Node & NPM should installed on machine )
+
+Step 2:-  Database configuration is given you may change it according to your convinenece or may used the same 
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=task_manager_db
+DB_USERNAME=root
+DB_PASSWORD= 
+
+
+Step 3:- After setup project or database configuration you may run this artisan command ( php artisan migrate:fresh --seed ) to migrate all necessary tables. 
+and seed with initial data. This command automatically create a default Admin and Two dummy users and create six tasks both users has assigned with three tasks each.
+Admin and User's Credential are given below.
+
+<------------ Admin Credential --------->
+Username:-    admin@example.com
+Password:-    admin@123
+
+<------------ User 1 Credential --------->
+Username:-    user1@example.com
+Password:-    12345678
+
+<------------ User 2 Credential --------->
+Username:-    user1@example.com
+Password:-    12345678
+
+Note:- These are dummy entries for testing purpose you may also registered your own fresh user on welcome screen Register link.
+
+
+Step 4:- User may access or manage task only after registration or login. both Admin and User has visible different option after login on their dashoboard page according
+to their role policies.
+
+Step 5:- User Authorization (role based) who can access what resources.
+
+<-------------- Admin can do ----------->
+1. Admin can View all tasks that are created by itself as well as by other users also.
+2. Admin can only assigned task to the user. Nobody else can do this.
+3. Admin can also create and edit task.
+4. Admin can change the status of task (like pending, inprogress, completed).
+
+<------------ User can do ------------>
+1. User can only view task that are created by him or that are assigned him by admin.
+2. User can create task and edit only those task that are created by him not others.
+3. User can change the status of task (like pending, inprogress, completed). only that are assigned to him.
+
+
+
