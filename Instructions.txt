@@ -1,5 +1,8 @@
 <----------------------------- Task Management Project Instruction ---------------------------->
 
+GitHub Repository URL:-  https://github.com/codeatertaglo/task-manager.git
+please download the project by using above mentioned github repository url.
+
 Step 1:- Project Requirement:- This Task Manager Project built on Laravel 11 using laravel breeze with atleast php 8.2 version so please setup it on your local machine 
 and install all require dependencies (php version 8.2 or plus, composer, Node & NPM should installed on machine )
 
